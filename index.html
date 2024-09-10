@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESPORTES CFJKM - Catálogo de Assinatura</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #1E90FF;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            background-color: #333;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: inline-block;
+        }
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #1E90FF;
+        }
+        .planos {
+            display: flex;
+            justify-content: space-around;
+        }
+        .plano {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 5px;
+            width: 30%;
+            text-align: center;
+        }
+        .plano h3 {
+            color: #333;
+        }
+        .plano p {
+            font-size: 14px;
+            color: #666;
+        }
+        .plano .preco {
+            font-size: 24px;
+            color: #1E90FF;
+            margin: 10px 0;
+        }
+        .plano button {
+            background-color: #1E90FF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #1E90FF;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        form {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #1E90FF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ESPORTES CFJKM - Catálogo de Assinatura</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Planos de Assinatura</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Sobre Nós</h2>
+        <p>Bem-vindo ao ESPORTES CFJKM, seu destino principal para os melhores conteúdos esportivos. Oferecemos uma ampla gama de conteúdos exclusivos para entusiastas de esportes, desde análises aprofundadas até cobertura ao vivo dos maiores eventos esportivos.</p>
+    </section>
+    <section>
+        <h2>Planos de Assinatura</h2>
+        <div class="planos">
+            <div class="plano">
+                <h3>Plano Básico</h3>
+                <p>Perfeito para quem quer acompanhar os destaques semanais dos maiores eventos esportivos.</p>
+                <div class="preco">R$19,90/mês</div>
+                <button>Assinar Agora</button>
+            </div>
+            <div class="plano">
+                <h3>Plano Avançado</h3>
+                <p>Inclui cobertura ao vivo de eventos e análises exclusivas dos especialistas.</p>
+                <div class="preco">R$39,90/mês</div>
+                <button>Assinar Agora</button>
+            </div>
+            <div class="plano">
+                <h3>Plano Premium</h3>
+                <p>O pacote completo para os fãs de esportes, com acesso a conteúdos exclusivos, transmissões ao vivo e muito mais.</p>
+                <div class="preco">R$59,90/mês</div>
+                <button>Assinar Agora</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Contato</h2>
+        <form action="#">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 ESPORTES CFJKM. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
